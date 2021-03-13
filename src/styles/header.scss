@@ -1,0 +1,41 @@
+.header{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    &__input{
+        border: none;   
+        border-radius: 8px;
+        box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+        padding: 2px;
+        font-size: 14px;
+    }
+
+    &__btn{
+        border:none;
+        background-color: transparent;
+    }
+
+    &-img{
+        height:15px;
+    }
+}
+
+@media (max-width: 676px){
+    .header{
+        display: block;
+        margin-left: 20px;
+
+        &-logo{
+            margin-bottom: 20px;
+        }
+    }
+
+    .menu {
+        &__input{
+            margin-right: 5px;
+        }
+    }
+}
