@@ -27,8 +27,6 @@
 
     }
     
-    
-    
     &__item-text{
         font-size: 16px;
         font-weight: 600;
@@ -41,6 +39,7 @@
     
     .detail-rating{
         padding: 2px; 
+    }
 
 @media (max-width: 676px){
     .main{
@@ -56,5 +55,4 @@
             display: block;
         }
 }
-
 }
