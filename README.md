@@ -1,6 +1,8 @@
 # Airbnb-practice
 Fictional AirBnB platform
 
+Desktop, Tablet and mobile version. 
+
 In the project directory, you can run:
 
 Npm install
