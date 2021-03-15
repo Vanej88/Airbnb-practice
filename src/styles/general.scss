@@ -2,9 +2,28 @@
     box-sizing: border-box;
 }
 
-.container{
-    max-width: 840px;
-    margin: 0 auto; 
-    font-family: 'Montserrat', sans-serif;
+body{
+    font-size: 16px;
+    font-weight: 400;
 }
 
+img{
+    display:block;
+    width:100%;
+}
+
+.container{
+    max-width: 1281px;
+    margin: 0 auto; 
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 16px; 
+}
+
+::placeholder {
+    color:#bdbdbd;
+    opacity: 1; 
+}
+
+input:focus{
+    outline: 0;
+}
